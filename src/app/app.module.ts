@@ -1,18 +1,17 @@
-import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import {CoreModule} from './core/core.module';
+
 
 @NgModule({
   declarations: [
+    // 指令、组件、管道
     AppComponent
   ],
   imports: [
-    BrowserModule,
-    AppRoutingModule
+    // 引入依赖模块
+    CoreModule
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent]  // 入口组件
 })
 export class AppModule { }
