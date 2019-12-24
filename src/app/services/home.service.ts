@@ -5,7 +5,6 @@ import {Observable} from 'rxjs';
 import {Banner} from './data-types/common.types';
 import {map} from 'rxjs/operators';
 
-
 @Injectable({
   providedIn: ServicesModule
 })
