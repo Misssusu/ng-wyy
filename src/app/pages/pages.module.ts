@@ -10,4 +10,5 @@ import {HomeModule} from './home/home.module';
     HomeModule
   ]
 })
+
 export class PagesModule { }
