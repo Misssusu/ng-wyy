@@ -12,7 +12,6 @@ import {NZ_I18N, zh_CN} from 'ng-zorro-antd';
 
 registerLocaleData(zh);
 
-
 @NgModule({
   declarations: [],
   imports: [
