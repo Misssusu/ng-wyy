@@ -14,7 +14,6 @@ export class HomeComponent implements OnInit {
       this.banners = banners;
     });
   }
-
   ngOnInit() {
   }
 
